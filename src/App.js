@@ -15,8 +15,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-          {/* <Route path="*" element={<h1 className="my-2 display-4 text-danger">404 Page not found</h1>} /> */}
+          {/* <Route path="*" element={<Error />} /> */}
+          <Route path="*" element={<h1 className="my-2 display-4 text-danger">404 Page not found</h1>} />
         </Routes>
       </Router>
     </div>
