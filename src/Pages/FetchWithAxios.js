@@ -6,12 +6,9 @@ const FetchWithAxios = () => {
     const [data, setData] = useState("")
     useEffect(() => {
         axios.get("http://localhost:4000/reviews")
-        .then((data) => setData(data.data))
+            .then((data) => setData(data.data))
     }
         , [])
-
-
-
 
     return (
         <>
